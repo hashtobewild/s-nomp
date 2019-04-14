@@ -86,6 +86,20 @@
         "checkPassword": true,
         "autoCreateWorker": false
     },
-    "blockDiagnostics": false
-
+    "blockDiagnostics": {
+        "enabled": false,
+        "modules": {
+            "getBlockTemplateResult": {
+                "enabled":false
+            },
+            "submitBlockSent": {
+                "enabled":false
+            },
+            "submitBlockResult": {
+                "enabled":false
+            }
+        },
+        "log": false,
+        "logPath": ""    
+    }
 }
