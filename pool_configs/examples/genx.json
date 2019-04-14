@@ -85,6 +85,7 @@
         "database": "genx",
         "checkPassword": true,
         "autoCreateWorker": false
-    }
+    },
+    "blockDiagnostics": false
 
 }
